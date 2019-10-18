@@ -98,3 +98,5 @@ gem 'jpush'
 
 gem 'creek'
 gem 'dalli'
+
+gem 'react-rails', '~> 1.0'

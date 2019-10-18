@@ -17,5 +17,9 @@
       <strong>Text:</strong>
       <%= @book.text %>
     </p>
+    
+    <td><%= link_to 'Edit', edit_book_path(@book) %></td>
+    <%= link_to 'Back', books_path %>
+
   </body>
 </html>
