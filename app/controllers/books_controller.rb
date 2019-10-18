@@ -1,7 +1,7 @@
 class BooksController < ApplicationController
 
   def show
-    @article = Article.find(params[:id])
+    @book = Book.find(params[:id])
   end
  
   def new
@@ -9,6 +9,7 @@ class BooksController < ApplicationController
  
   def create
     # @book = Book.new(params[:books])
+    Book.new(book_params)
     @book = Book.new(book_params)
     @book.save
     redirect_to @book
