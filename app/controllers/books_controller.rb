@@ -1,5 +1,7 @@
 class BooksController < ApplicationController
 
+  protect_from_forgery :except => [:sample]
+
   def index
     @books = Book.all
   end

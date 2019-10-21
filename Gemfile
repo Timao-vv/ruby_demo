@@ -99,4 +99,6 @@ gem 'jpush'
 gem 'creek'
 gem 'dalli'
 
-gem 'react-rails', '~> 1.0'
+gem 'coffee-rails'
+
+gem 'jquery-rails'
