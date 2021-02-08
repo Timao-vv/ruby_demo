@@ -31,7 +31,7 @@ gem 'grape'
 gem 'hashie'
 gem 'grape-jbuilder'
 
-gem 'carrierwave', '~> 1.2.3'
+gem 'carrierwave', '~> 1.3.2'
 gem 'carrierwave-video-thumbnailer'
 
 gem 'will_paginate'
